@@ -22,6 +22,7 @@ $redirect_to = $this->redirect_to;
                         <div class="text-center">
                             Already have an account?  <a class="btn btn-primary" href="<?php print_link('') ?>"> Login</a>
                         </div>
+                        
                     </div>
                 </div>
             </div>
@@ -30,6 +31,7 @@ $redirect_to = $this->redirect_to;
     <?php
     }
     ?>
+
     <div  class="">
         <div class="container">
             <div class="row ">
