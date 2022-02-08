@@ -286,6 +286,27 @@ INSERT INTO `users` (`id`, `first_name`, `last_name`, `photo`, `birth_day`, `res
 (1, 'kim', 'sonk', 'http://localhost/pre-primaryschoolmanagementsystem/uploads/files/p_alm365zig74b8.jpg', '12/06/1990', 'nairobi', '0707333776', 'kimtech', '$2y$10$F2br6Zvs35l6rg3YM7oSnuTojUqf4ySxVjLQzoXoJf4ifHn.fJYHq', 'kim@gmail.com', NULL, NULL, '2021-04-21 00:00:00', NULL, 'headteacher', '', 'Active'),
 (2, 'sonko', 'kim', 'http://localhost/pre-primaryschoolmanagementsystem/uploads/files/sfacl02xohud_y7.jpg', '12/02/2019', 'voi', '0707333776', 'sonko', '$2y$10$I2EBOkrGZmJul5vmcqTQ4e3o3wKKQm7jrxl18n.fXZasqqmecz96e', 'kim1@gmail.com', NULL, NULL, '2021-04-21 00:00:00', NULL, 'pupils', '2', 'Active');
 
+CREATE TABLE `orgnizations` (
+  `id` int(11) NOT NULL,
+  `org_name` varchar(255) NOT NULL,
+  `resdence` varchar(255) NOT NULL,
+  `phone` varchar(255) NOT NULL,
+  `username` varchar(255) NOT NULL,
+  `password` varchar(255) DEFAULT NULL,
+  `email` varchar(255) NOT NULL,
+  `login_session_key` varchar(255) DEFAULT NULL,
+  `email_status` varchar(255) DEFAULT NULL,
+  `password_expire_date` datetime DEFAULT '2021-04-21 00:00:00',
+  `password_reset_key` varchar(255) DEFAULT NULL,
+  `role` varchar(255) NOT NULL,
+  `account_status` varchar(255) DEFAULT 'Pending'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+
+
+
+
+
 --
 -- Indexes for dumped tables
 --
