@@ -85,8 +85,8 @@ define("DEFAULT_EMAIL_ACCOUNT_NAME", "");
 
 // Database Configuration Settings
 define("DB_HOST", "localhost");
-define("DB_USERNAME", "root");
-define("DB_PASSWORD", "");
+define("DB_USERNAME", "ostechnix");
+define("DB_PASSWORD", "Password123#@!");
 define("DB_NAME", "preschool");
 define("DB_TYPE", "mysql");
 define("DB_PORT", "");
