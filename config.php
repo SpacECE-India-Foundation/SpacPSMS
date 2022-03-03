@@ -16,9 +16,10 @@ $site_addr = (isset($_SERVER["HTTPS"]) && $_SERVER["HTTPS"] !== "off" ? "https" 
 //Must end with /
 $site_addr = rtrim($site_addr, "/\\") . "/";
 
+$site_addr = "http://spacefoundation.in/test/SpacECE-SpacPSMS/";
+
 // Can Be Set Manually Like "http://localhost/mysite/".
-//define("SITE_ADDR", $site_addr);
-define("SITE_ADDR", "http://spacefoundation.in/test/SpacECE-SpacPSMS/");
+define("SITE_ADDR", $site_addr);
 
 define("APP_ID", "b624c7de04b60ece45b32355a11879b5");
 
