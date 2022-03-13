@@ -16,6 +16,8 @@ $site_addr = (isset($_SERVER["HTTPS"]) && $_SERVER["HTTPS"] !== "off" ? "https" 
 //Must end with /
 $site_addr = rtrim($site_addr, "/\\") . "/";
 
+$site_addr = "http://spacefoundation.in/test/SpacECE-SpacPSMS/";
+
 // Can Be Set Manually Like "http://localhost/mysite/".
 define("SITE_ADDR", $site_addr);
 
@@ -85,8 +87,8 @@ define("DEFAULT_EMAIL_ACCOUNT_NAME", "");
 
 // Database Configuration Settings
 define("DB_HOST", "localhost");
-define("DB_USERNAME", "root");
-define("DB_PASSWORD", "");
+define("DB_USERNAME", "ostechnix");
+define("DB_PASSWORD", "Password123#@!");
 define("DB_NAME", "preschool");
 define("DB_TYPE", "mysql");
 define("DB_PORT", "");
